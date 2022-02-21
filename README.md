@@ -5,6 +5,7 @@ the program to train Korean WordPiece tokenizers with Mecab and BertTokenizer(HF
 1. pre-tokenize with Mecab (KoNLPy)
     - 코스트코에서 늘 사서 쓰던 제품이에요
     - 코스트코 에서 늘 사 서 쓰 던 제품 이 에요
+    python3 pretokenize.py -IN test_written.txt -OUT tkd_test_written.txt
 
 2. train WordPiece tokenizer with BertTokenizer (huggingface transformer)
 @arguements
