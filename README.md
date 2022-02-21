@@ -15,6 +15,7 @@ python3 pretokenize.py -IN test_written.txt -OUT tkd_test_written.txt
 - vocab_size: number of words in vocab
 - min_freq: contain words whose frequency is over min_freq
 - limit_alphabet: ㄱ, ㄴ, ㄷ, ㄹㄱ, chinese, ... number of alphabets
+- initial_alphabet: 가성비, 무드등, ... words that should not be splitted
 - num_unused: the number of [unused00]
 - name: {name}_{vocab size}_freq{min freq}_limit{limit alphabet}.txt
 - dir: directory to save
@@ -25,6 +26,7 @@ python3 train_tokenizer.py
     -F 100 # min_frequency
     -A 3000 # num_init_alphabets
     -U 100 # num_unused
+    -INIT initial_alphabet.txt
     -OUT test # outfile name
 ```
 # Result
