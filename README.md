@@ -30,3 +30,4 @@ python3 train_tokenizer.py
 # Result
 tokenizer_28323.txt  
 - news, kowiki, written, reviews
+![result](img/result.png)
