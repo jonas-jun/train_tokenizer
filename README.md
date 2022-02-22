@@ -10,6 +10,8 @@ python3 pretokenize.py -IN test_written.txt -OUT tkd_test_written.txt
 ```
 
 2. train WordPiece tokenizer with BertTokenizer (huggingface transformer)  
+
+
 @arguements
 - files: files to train, ['aaa.txt', 'bbb.txt']
 - vocab_size: number of words in vocab
